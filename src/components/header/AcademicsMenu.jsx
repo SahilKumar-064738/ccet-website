@@ -39,8 +39,8 @@ const AcademicsMenu = () => {
             links: [
                 { name: 'Courses Offered', path: '/students-section/courses' },   // ✅ Now clickable
                 'Academic Calendar', 
-                { name: 'Academic Prospectus', path: '/prospectus' },  
-                'Affiliating University'
+                { name: 'Academic Prospectus', path: '/prospectus' }, 
+                { name: 'Affiliating University', path: 'https://puchd.ac.in/' }
             ],
         },
     ];
