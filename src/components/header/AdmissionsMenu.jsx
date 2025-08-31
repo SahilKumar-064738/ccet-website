@@ -22,7 +22,10 @@ const AdmissionsMenu = () => {
           name: "JAC Brochure 2025",
           url: "https://jacchd.admissions.nic.in/information-bulletin/",
         },
-        "Opening/Closing Rank",
+        {
+          name: "Opening/Closing Rank",
+          url: "https://jacchd.admissions.nic.in/or-cr/",
+        },
       ],
     },
     {
