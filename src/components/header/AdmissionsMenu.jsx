@@ -26,8 +26,11 @@ const AdmissionsMenu = () => {
           name: "Counselling Schedule",
           url: "https://jacchd.admissions.nic.in/schedule/",
         },
-        { name: "JAC Brochure 2025", path: "/jac/brochure-2025" },
-        { name: "Opening/Closing Rank", path: "/jac/rank" },
+        {
+          name: "JAC Brochure 2025",
+          url: "https://jacchd.admissions.nic.in/information-bulletin/",
+        },
+        "Opening/Closing Rank",
       ],
     },
     {
