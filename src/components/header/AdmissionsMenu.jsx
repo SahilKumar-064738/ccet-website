@@ -1,15 +1,10 @@
 import React from "react";
-
-
 import { Link } from "react-router-dom";
-
 
 const AdmissionsMenu = () => {
   const sections = [
     {
       title: "Admissions",
-
-
       links: ["Admission Notices", "Help Desk"],
     },
     {
@@ -43,7 +38,6 @@ const AdmissionsMenu = () => {
   return (
     <div className="absolute top-full left-1/2 transform -translate-x-[65%] hidden group-hover:grid grid-cols-4 bg-white/70 backdrop-blur-md shadow-xl z-50 p-6 gap-6 text-1xl text-gray-800 rounded-lg border border-gray-100 min-w-[1000px] max-w-[90vw]">
 
-
       links: [
         { name: "Admission Notices", path: "/admissions/notices" },
         { name: "Help Desk", path: "/admissions/helpdesk" },
@@ -56,7 +50,6 @@ const AdmissionsMenu = () => {
         { name: "Degree Course (PU-LEET)", path: "/programmes/pu-leet" },
         { name: "Doctorate (PhD)", path: "/programmes/phd" },
       ],
-
     },
     {
       title: "JAC",
@@ -70,32 +63,20 @@ const AdmissionsMenu = () => {
           name: "JAC Brochure 2025",
           url: "https://jacchd.admissions.nic.in/information-bulletin/",
         },
-
         {
           name: "Opening/Closing Rank",
           url: "https://jacchd.admissions.nic.in/or-cr/",
         },
-
-        "Opening/Closing Rank",
-
       ],
     },
     {
       title: "Criteria",
-
-      links: ["Eligibility"],
-
       links: [{ name: "Eligibility", path: "/criteria/eligibility" }],
-
     },
   ];
 
   return (
-
-    <div className="absolute top-full left-1/2 transform -translate-x-[65%] hidden group-hover:grid grid-cols-4 bg-white/70 backdrop-blur-md shadow-xl z-50 p-6 gap-6 text-1xl text-gray-800 rounded-lg border border-gray-100 min-w-[1000px] max-w-[90vw]">
-
     <div className="absolute top-full left-1/2 transform -translate-x-[65%] hidden group-hover:grid grid-cols-4 bg-white/70 backdrop-blur-md shadow-xl z-50 p-6 gap-6 text-base text-gray-800 rounded-lg border border-gray-100 min-w-[1000px] max-w-[90vw]">
-
       {sections.map((section, i) => (
         <div key={i}>
           <div className="font-semibold border-b border-gray-200 pb-2 mb-3 text-red-700">
@@ -107,30 +88,22 @@ const AdmissionsMenu = () => {
                 key={idx}
                 className="hover:bg-[#FB923C] hover:text-white cursor-pointer transition-colors duration-200 px-2 py-1 rounded"
               >
-
-                {typeof link === "string" ? (
-                  link
-                ) : link.url.startsWith("http") ? (
-
-
                 {typeof link === "string" ? (
                   link
                 ) : link.url.startsWith("http") ? (
 
                 {link.url ? (
 
+
+                  <span>{link}</span>
+                ) : link.url ? (
                   <a href={link.url} target="_blank" rel="noopener noreferrer">
                     {link.name}
                   </a>
                 ) : (
 
                   <a href={link.url}>{link.name}</a>
-
-
-                  <a href={link.url}>{link.name}</a>
-
                   <Link to={link.path}>{link.name}</Link>
-
                 )}
               </li>
             ))}
