@@ -7,9 +7,11 @@ const AboutUsMenu = () => {
       title: "About",
       links: [
         "History",
-        "Vision and Mission",
+        <Link to="/vision-mission" className="block w-full" key="vision-mission">
+          Vision and Mission
+        </Link>,
         "Campus Map",
-        <Link to="/contact" className="block w-full">
+        <Link to="/contact" className="block w-full" key="contact">
           How To Reach Us
         </Link>,
       ],
@@ -38,7 +40,9 @@ const AboutUsMenu = () => {
         "Canteen",
         "Infrastructure",
         "Policy on use of IT Resources",
-        "Sports Facility",
+        <Link to="/sports-facility" className="block w-full">
+          Sports Facility
+        </Link>,
       ],
     },
   ];
