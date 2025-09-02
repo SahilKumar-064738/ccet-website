@@ -304,7 +304,6 @@ const Header = () => {
 
 
 
-        {/* Desktop View */}
         <div className="hidden lg:flex flex-col items-center px-2 py-3 w-full max-w-[1436px] mx-auto">
           <div className="flex w-full items-center justify-center gap-2">
             <div className="flex items-center h-full mx-14 min-w-[96px]">
