@@ -39,6 +39,7 @@ import FitIndiaPage from "./pages/Students-Section/Academics/FitIndia/FitIndiaPa
 import Leet from "./pages/Degree-PU-LEET/Degree-pu-leet.jsx";
 import Doctorate from "./pages/Doctorate/PhdProgrammes.jsx";
 import Degree from "./pages/Degree/Degree.jsx";
+import Tenders from "./pages/Tenders/Tenders.jsx";
 
 function App() {
   return (
@@ -89,6 +90,7 @@ function App() {
         <Route path="/programmes/pu-leet" element={<Leet />} />
         <Route path="/programmes/phd" element={<Doctorate />} />
         <Route path="/programmes/degree" element={<Degree />} />
+        <Route path="/notices/tenders" element={<Tenders />} />
 
         {/* Add more routes here */}
       </Routes>
