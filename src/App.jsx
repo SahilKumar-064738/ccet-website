@@ -131,7 +131,7 @@ function App() {
                 <Route path="/notices/tenders" element={<Tenders/>}/>
 
                 {/* Others */}
-                <Route path="/helpdesk" element={<HelpDesk/>}/>
+                <Route path="/admissions/helpdesk" element={<HelpDesk/>}/>
                 <Route path="/ecell" element={<ECell/>}/>
 
                 {/* News */}
