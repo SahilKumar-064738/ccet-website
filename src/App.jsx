@@ -35,6 +35,13 @@ import StudentChaptersandClubs from "./pages/StudentChaptersandClubs/StudentChap
 import NewsDetails from "./pages/Home/NewsDetails.jsx";
 import Canteen from "./pages/Canteen/Canteen.jsx";
 import AdmissionNotices from "./pages/AdmissionNotices/AdmissionNotices.jsx";
+import EventCalendar from "./pages/EventCalendar/EventCalendar.jsx";
+import AcademicCalendar from "./pages/AcademicCalendar/AcademicCalendar.jsx";
+import EoaLatest from "./pages/MandatoryDisclosure/EoaLatest.jsx";
+import Partone from "./pages/MandatoryDisclosure/ApplicationPart-1.jsx";
+import Parttwo from "./pages/MandatoryDisclosure/ApplicationPart-2.jsx";
+import DeficiencyReport from "./pages/MandatoryDisclosure/DeficiencyReport.jsx";
+import OldEOA from "./pages/MandatoryDisclosure/OldEoas.jsx";
 
 // ECE Department
 import EceOverview from "./pages/ECE-Department/ece-overview.jsx";
