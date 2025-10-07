@@ -11,7 +11,7 @@ const CseFaculty = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("/api/faculty-cse.php")
+    fetch("https://ccet.ac.in/api/faculty-cse.php")
       .then((response) => {
         if (!response.ok) throw new Error("Network response was not ok");
         return response.json();
